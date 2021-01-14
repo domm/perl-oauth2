@@ -132,7 +132,7 @@ C<verify> is designed for verifying pre-existing access tokens. Instead of using
 
 The server seems to ignore the C<Authorization> header for this request, so including it is probably not a problem. If you want to avoid sending the access token in the header, it's necessary to manually construct the request and decode the response.
 
-See L</SYNOPSYS> for usage examples.
+See L</SYNOPSIS> for usage examples.
 
 =item C<revoke>
 
